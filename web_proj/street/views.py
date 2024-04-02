@@ -1,7 +1,7 @@
 from django.shortcuts import render#, redirect
 from django.http import HttpRequest, JsonResponse
 import json
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_protect
 #from django_ratelimit.decorators import ratelimit
 from .utils.functions import generate_response
 from .models import TextDataset,VectorDataset
@@ -13,7 +13,7 @@ def home(request: HttpRequest) -> HttpRequest:
     return render(request, 'home.html',)
 
 
-@csrf_exempt
+@csrf_protect
 def get_response(request: HttpRequest) -> HttpRequest:
     if request.method == "POST":
         data = json.loads(request.body)
