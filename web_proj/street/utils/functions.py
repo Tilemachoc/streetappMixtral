@@ -1,10 +1,9 @@
-
 from sentence_transformers import SentenceTransformer
 from ..models import TextDataset,VectorDataset
+import numpy as np
+from .my_config import client
 from typing import List
 import logging
-import numpy as np
-from .my_config import model7, tokenizer7, model7x8, tokenizer7x8
 
 
 def logging_variable(name,variable):
@@ -43,14 +42,16 @@ def generate_embeddings_from_database(start_idx: int,database_model=TextDataset)
 
 @logging_function("function_logs.log")
 def simplify_text(message):
-    instructions = "<s>[INST]:\nGiven a user's question, extract and list only the most relevant keywords and specific terms that define the core subject or intention of the query. Remove all filler words, general inquiries, and unnecessary details to simplify the question to its essence, focusing on actions, product names, or specific features involved.[/INST] "
-    text = instructions + message
-
-    inputs = tokenizer7(text, return_tensors='pt')
-    outputs = model7.generate(**inputs, max_new_tokens=256)
-
-    answer = tokenizer7.decode(outputs[0], skip_special_tokens=True)
-    return answer
+    instructions = "Given a user's question, extract and list only the most relevant keywords and specific terms that define the core subject or intention of the query. Remove all filler words, general inquiries, and unnecessary details to simplify the question to its essence, focusing on actions, product names, or specific features involved."
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": instructions},
+            {"role": "user", "content": message}
+        ]
+    )
+    gpt_response = response.choices[0].message.content
+    return gpt_response
 
 
 @logging_function("function_logs.log")
@@ -80,24 +81,27 @@ def cosine_compare(q_vector,vectordataset_rows, top_k):
 @logging_function("function_logs.log")
 def get_response(message: str, list_ids: List):
     #If i wasn't using openai api, this would be the format of context: https://youtu.be/biJmRQF8bmY?si=jY0KjHsGpRKcAUDx&t=1370
-    context = "<s>[INS]Method: rag_context\nPrompt: <context>\n"
+    context = "<context>\n"
 
     textdataset_list = TextDataset.objects.filter(pk__in=list_ids)
 
     for i,td_row in enumerate(textdataset_list, start=1):
         td_text = td_row.text
-        context += f"<Section_{i}>\n"
+        context += f"<Section_{i}>\n\n"
         context += td_text
-        context += f"\n</Section_{i}>\n"
-    context += "</context>\nIn answering the following question, you may choose - if appropriate - to make use of the above context:[/INT]"
+        context += f"\n\n</Section_{i}>\n\n"
+    context += "</context>\n\nIn answering the following question, you may choose - if appropriate - to make use of the above context:"
 
-    text = context + f"\n{message}"
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content":context},
+            {"role": "user", "content": message}
+        ]
+    )
+    gpt_response = response.choices[0].message.content
 
-    inputs = tokenizer7x8(text, return_tensors='pt')
-    outputs = model7x8.generate(**inputs, max_new_tokens=256)
-
-    answer = tokenizer7x8.decode(outputs[0], skip_special_tokens=True)
-    return answer
+    return gpt_response
 
 
 @logging_function("function_logs.log")
@@ -122,4 +126,4 @@ def generate_response(message: str, top_k=1):
 
     OUTGOING_MESSAGE = rows_used[:-1] + "\n\n" + gpt_response
 
-    return {"message": OUTGOING_MESSAGE}
+    return {"message":OUTGOING_MESSAGE}
