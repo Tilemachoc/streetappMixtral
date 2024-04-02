@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block home %}
+{% load static %}
+<!-- <style>
+    #my_container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+</style> -->
+<link rel="stylesheet" href="{% static 'styles/basic.css' %}">
+<div id="my_container" class="background-div fix-overflow">
+    <div>
+        {% include 'chat_app.html' %}
+    </div>
+</div>
+
+{% endblock %}

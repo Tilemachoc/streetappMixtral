@@ -1,0 +1,9 @@
+django
+uvicorn
+python-dotenv
+mysqlclient
+sentence_transformers
+psycopg2
+django_ratelimit
+django-cors-headers
+openai

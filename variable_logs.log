@@ -1,0 +1,178 @@
+INFO:root:q_vector= [ 0.01313264 -0.0362569   0.03007775 ... -0.02912716  0.02587451
+  0.01844806]
+INFO:root:q_vector.T= [ 0.01313264 -0.0362569   0.03007775 ... -0.02912716  0.02587451
+  0.01844806]
+INFO:root:query_norm= 1.0
+INFO:root:vd_vector= [ 0.00826778 -0.05607001  0.03812341 ... -0.0050694   0.01832472
+  0.03666213]
+INFO:root:dot_product= 0.7201246039213662
+INFO:root:vd_vector= [ 0.01710974 -0.03001552  0.04145603 ... -0.02785185  0.03662514
+  0.0121769 ]
+INFO:root:dot_product= 0.7003063563336753
+INFO:root:vd_vector= [ 0.00234736 -0.03024383  0.01646698 ... -0.00264826  0.00522119
+  0.02886506]
+INFO:root:dot_product= 0.7418589366323363
+INFO:root:vd_vector= [-0.01867461 -0.04512613  0.01177137 ...  0.00196042  0.01178032
+  0.019508  ]
+INFO:root:dot_product= 0.7354636688790006
+INFO:root:vd_vector= [-0.00632573 -0.06390861 -0.00434267 ...  0.00614483  0.00692408
+  0.01403239]
+INFO:root:dot_product= 0.7223929803599701
+INFO:root:vd_vector= [-0.01142427 -0.04604746  0.02460674 ... -0.03763016  0.00281263
+ -0.00818029]
+INFO:root:dot_product= 0.7261606727626814
+INFO:root:vd_vector= [-0.01542644 -0.0311016   0.01521884 ...  0.0048168   0.0044103
+  0.00784325]
+INFO:root:dot_product= 0.7389623996201466
+INFO:root:vd_vector= [-0.00799784 -0.0393282   0.02020123 ... -0.01833416  0.04016973
+  0.02519629]
+INFO:root:dot_product= 0.7281632992110894
+INFO:root:vd_vector= [ 0.01997706 -0.0362475   0.02073376 ... -0.01888119  0.00454201
+  0.01351154]
+INFO:root:dot_product= 0.7378948052022376
+INFO:root:vd_vector= [-0.0159147  -0.02166628  0.0401119  ... -0.00759078  0.02194806
+  0.02323004]
+INFO:root:dot_product= 0.7341195369976069
+INFO:root:vd_vector= [-0.00348912 -0.03013466  0.02730811 ... -0.02310581  0.0024465
+ -0.01370531]
+INFO:root:dot_product= 0.7282351661144012
+INFO:root:vd_vector= [ 0.00687661 -0.04284688  0.01568713 ... -0.01796561 -0.00722928
+  0.03443485]
+INFO:root:dot_product= 0.743781392693619
+INFO:root:vd_vector= [-0.01495756 -0.02301262  0.03979492 ... -0.0299265   0.01766703
+  0.01686422]
+INFO:root:dot_product= 0.7304445828857158
+INFO:root:vd_vector= [ 0.00437669 -0.05385784  0.04895279 ... -0.02383386  0.01755059
+  0.02300669]
+INFO:root:dot_product= 0.7039029970406985
+INFO:root:vd_vector= [ 0.00995855 -0.0781268   0.06719265 ... -0.05121201  0.00745922
+  0.00483744]
+INFO:root:dot_product= 0.7319826898204883
+INFO:root:vd_vector= [ 0.02776622 -0.01951898  0.02546423 ... -0.02285803 -0.00332484
+  0.03025885]
+INFO:root:dot_product= 0.7371230672992647
+INFO:root:vd_vector= [ 0.00640489 -0.02788255  0.03987113 ... -0.02930279  0.01916597
+  0.02396406]
+INFO:root:dot_product= 0.7431251817570331
+INFO:root:vd_vector= [ 7.26639337e-05 -5.25176227e-02  2.89699174e-02 ... -1.76161360e-02
+ -1.02015100e-02  1.26418034e-02]
+INFO:root:dot_product= 0.7361703569299682
+INFO:root:vd_vector= [ 0.0101223  -0.03677794  0.03258003 ... -0.00784067  0.00477356
+  0.02194026]
+INFO:root:dot_product= 0.7313627744189037
+INFO:root:vd_vector= [-0.00719887 -0.03583921  0.00538666 ... -0.02301577  0.02603999
+  0.01524382]
+INFO:root:dot_product= 0.7288231726279467
+INFO:root:vd_vector= [-0.02259092 -0.05251395  0.0340573  ... -0.00614584  0.03897508
+  0.02987958]
+INFO:root:dot_product= 0.7463707819810024
+INFO:root:vd_vector= [-0.02205065 -0.02925511  0.0483367  ... -0.02813728  0.02062867
+  0.00549926]
+INFO:root:dot_product= 0.727062087668491
+INFO:root:vd_vector= [-0.0215095  -0.03650552  0.02560739 ... -0.01765623  0.0068296
+  0.02213378]
+INFO:root:dot_product= 0.7288211528208111
+INFO:root:vd_vector= [ 0.01813484 -0.01726754  0.00395165 ... -0.02131633  0.00784857
+  0.04171205]
+INFO:root:dot_product= 0.7272081596343536
+INFO:root:vd_vector= [-0.00533405 -0.05870573  0.03238466 ... -0.02204149  0.00999625
+  0.01981575]
+INFO:root:dot_product= 0.7276526315729637
+INFO:root:vd_vector= [-0.00201482 -0.05034829  0.04495551 ... -0.02071261 -0.0189506
+ -0.00543737]
+INFO:root:dot_product= 0.7304444433673773
+INFO:root:vd_vector= [ 0.02202897 -0.03979298  0.00297109 ... -0.00114105  0.00926709
+  0.0127414 ]
+INFO:root:dot_product= 0.7077448580397725
+INFO:root:vd_vector= [ 0.00709381 -0.04000876  0.03683035 ... -0.01098467  0.01399318
+  0.004086  ]
+INFO:root:dot_product= 0.7231011470033721
+INFO:root:vd_vector= [ 0.0151126  -0.03110874  0.01834269 ... -0.03098273  0.04382765
+  0.0318573 ]
+INFO:root:dot_product= 0.729644172233082
+INFO:root:vd_vector= [ 0.01051515 -0.02247844  0.01983905 ... -0.03814129  0.03813826
+  0.03503862]
+INFO:root:dot_product= 0.7180778673202124
+INFO:root:vd_vector= [-0.00250307 -0.02628974  0.0339522  ... -0.02616005  0.02312911
+  0.03187008]
+INFO:root:dot_product= 0.7372789091969358
+INFO:root:vd_vector= [ 7.24907219e-03 -4.54741344e-02  1.65683907e-02 ... -2.01866403e-02
+ -8.42591835e-05  4.15205956e-03]
+INFO:root:dot_product= 0.7301509729815922
+INFO:root:vd_vector= [-0.01991859 -0.02980283  0.03214685 ... -0.02851205 -0.02302376
+  0.03217326]
+INFO:root:dot_product= 0.7262420894577508
+INFO:root:vd_vector= [ 0.00156224 -0.05194512  0.00686548 ... -0.00684763  0.02507952
+  0.02079564]
+INFO:root:dot_product= 0.7180600023019232
+INFO:root:vd_vector= [-0.02425444 -0.05360792  0.02325396 ... -0.01107506  0.0026002
+  0.03642282]
+INFO:root:dot_product= 0.7286416018867565
+INFO:root:vd_vector= [-0.01109292 -0.03544047  0.0493986  ... -0.03665992  0.01473489
+  0.01701184]
+INFO:root:dot_product= 0.725125317878842
+INFO:root:vd_vector= [ 0.00120958 -0.03553633  0.03079364 ... -0.01805455  0.01343769
+  0.0224553 ]
+INFO:root:dot_product= 0.7375566500800033
+INFO:root:vd_vector= [ 0.00846267 -0.00436903  0.04387255 ... -0.01551093  0.0264254
+  0.01794098]
+INFO:root:dot_product= 0.7224879269614535
+INFO:root:vd_vector= [ 0.01320059 -0.0393131   0.03117882 ... -0.02733852  0.00879925
+  0.02654376]
+INFO:root:dot_product= 0.7178472640626095
+INFO:root:vd_vector= [ 0.01379494 -0.02690304  0.03865005 ... -0.04105999  0.02053794
+  0.03123857]
+INFO:root:dot_product= 0.7535280696064105
+DEBUG:openai._base_client:Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'system', 'content': '<context>\n<Section_1>\n\nThe wife ofRex Heuermann, the man suspected of killing four women around Gilgo Beach on Long Island in New York, issued a statement Wednesday saying she is giving her husband "the benefit of the doubt." Asa Ellerup said in a statement through her attorneys that she sympathized with the victims and their families and that "nobody deserves to die in that manner." "I will listen to all of the evidence and withhold judgment until the end of trial," she said. "I have given Rex the benefit of the doubt, as we all deserve." Ellerupfiled for divorceafter her husband\'s arrest, but her attorneys noted that she visits Heuermann every week and believes he is "not capable of the crimes he is accused of." Heuermann wascharged in July of last yearwith the murders of Melissa Barthelemy, Megan Waterman and Amber Costello. Then in January of this year, he wasindicted in the killing of Maureen Brainard-Barnes. The four women, dubbed the "Gilgo Four," were found in 2010 buried in close proximity to each other along Ocean Parkway near Gilgo Beach. All four were sex workers who had gone missing between 2007 and 2010. Heuermann has pleaded not guilty to the charges. Bob Macedonio, one of Ellerup\'s attorneys, told "48 Hours" in September 2023 that Ellerup "had no idea any of this was going on. Nobody wants to think that they\'ve been living with, sleeping next to a serial killer for the past 25 years." Investigators say they have evidence Ellerup was out of town when the murders occurred, and she has not been charged or named as a suspect, "48 Hours" reported. Ellerupappeared at one of Heuermann\'s court hearingsback in November 2023. Jordan Freiman is an editor and writer for CBSNews.com. He covers breaking news, trending stories, sports and crime. Jordan has previously worked at Spin and Death and Taxes.\n\n</Section_1>\n\n</context>\n\nIn answering the following question, you may choose - if appropriate - to make use of the above context:'}, {'role': 'user', 'content': 'ok'}], 'model': 'gpt-3.5-turbo'}}
+DEBUG:httpcore.http11:send_request_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_headers.complete
+DEBUG:httpcore.http11:send_request_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:send_request_body.complete
+DEBUG:httpcore.http11:receive_response_headers.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 30 Mar 2024 21:43:05 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-zwypbbfojnpnqsq3c1bdqsdx'), (b'openai-processing-ms', b'661'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9998'), (b'x-ratelimit-remaining-tokens', b'59490'), (b'x-ratelimit-reset-requests', b'15.892s'), (b'x-ratelimit-reset-tokens', b'510ms'), (b'x-request-id', b'req_f944dae6b9c3ad0b262613f094addec8'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'86cb45eb189b717c-ATH'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+DEBUG:httpcore.http11:receive_response_body.started request=<Request [b'POST']>
+DEBUG:httpcore.http11:receive_response_body.complete
+DEBUG:httpcore.http11:response_closed.started
+DEBUG:httpcore.http11:response_closed.complete
+DEBUG:openai._base_client:HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+ERROR:django.request:Internal Server Error: /dataset
+Traceback (most recent call last):
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\web_proj\street\views.py", line 30, in dataset
+    return render(request,"dataset.html",{"dataset_objects":dataset_objects})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dataset.html
+ERROR:django.request:Internal Server Error: /vectordataset
+Traceback (most recent call last):
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\web_proj\street\views.py", line 38, in vectordataset
+    return render(request,"vectordataset.html",{"vectordataset_objects":vectordataset_objects})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Tilemachos\Desktop\Documents\Programming\.vscode\StreetAPP3\streetapp\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: vectordataset.html

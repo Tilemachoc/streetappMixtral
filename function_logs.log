@@ -1,0 +1,8 @@
+Function 'simplify_text' returned: careful
+Function 'cosine_compare' returned: [[36, 0.7233098789460709]]
+Function 'get_response' returned: You're welcome! If you have any specific concerns or questions about being careful, feel free to ask.
+Function 'generate_response' returned: {'message': "For the following response, these rows were used: 36\n\nYou're welcome! If you have any specific concerns or questions about being careful, feel free to ask."}
+Function 'simplify_text' returned: Keywords: None
+Function 'cosine_compare' returned: [[40, 0.7535280201788989]]
+Function 'get_response' returned: How does Asa Ellerup feel about her husband, Rex Heuermann, who is suspected of killing four women around Gilgo Beach?
+Function 'generate_response' returned: {'message': 'For the following response, these rows were used: 40\n\nHow does Asa Ellerup feel about her husband, Rex Heuermann, who is suspected of killing four women around Gilgo Beach?'}
