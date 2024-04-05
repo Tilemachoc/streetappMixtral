@@ -1,27 +1,24 @@
 from django.shortcuts import render#, redirect
 from django.http import HttpRequest, JsonResponse
 import json
-from django.views.decorators.csrf import csrf_protect
-#from django_ratelimit.decorators import ratelimit
+from django.views.decorators.csrf import csrf_exempt
+from django_ratelimit.decorators import ratelimit
 from .utils.functions import generate_response
 from .models import TextDataset,VectorDataset
 
 # Create your views here.
 
 
+@ratelimit(key="ip", rate="10/d", method="POST", block=True)
 def home(request: HttpRequest) -> HttpRequest:
-    return render(request, 'home.html',)
-
-
-@csrf_protect
-def get_response(request: HttpRequest) -> HttpRequest:
     if request.method == "POST":
         data = json.loads(request.body)
+        #print("headers:",request.headers)
         message = data['message']
         response_data = generate_response(message=message)
         return JsonResponse(response_data)
     else:
-        return JsonResponse({"error": "Method Not Allowed"}, status=405)
+        return render(request, 'home.html',)
     
 
 def dataset(request: HttpRequest) -> HttpRequest:
