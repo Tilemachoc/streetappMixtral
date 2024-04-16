@@ -32,7 +32,8 @@ SECRET_KEY = django_key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+#ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -147,15 +148,16 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000','https://30ac-2a02-587-6008-1ead-b426-1f93-50cd-9093.ngrok-free.app']
 
-CSRF_ALLOWED_ORIGINS = ['http://127.0.0.1:8000']
+CSRF_ALLOWED_ORIGINS = ['http://127.0.0.1:8000','https://30ac-2a02-587-6008-1ead-b426-1f93-50cd-9093.ngrok-free.app']
 
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:8000',
     'http://127.0.0.1:8000',
+    'https://cb84-2a02-587-6008-1ead-b426-1f93-50cd-9093.ngrok-free.app',
 )
 
 CSRF_COOKIE_SECURE = True

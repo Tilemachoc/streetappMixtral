@@ -40,7 +40,8 @@ const generateResponse = async (incomingChatLi) => {
         console.error("Incoming chat element is null or undefined.");
         return;
     }
-    const API_URL = "http://127.0.0.1:8000";
+    // const API_URL = "http://127.0.0.1:8000";
+    const API_URL = window.location.href;
     const messageElement = incomingChatLi.querySelector("p");
     if (!messageElement) {
         console.error("Message element not found within incoming chat element.");
