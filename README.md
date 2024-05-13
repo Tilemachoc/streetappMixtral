@@ -1,6 +1,6 @@
 ### Application:
 
-**RAG Chatbot for Safe Travelling in New York**
+[**RAG Chatbot for Safe Travelling in New York**](https://www.linkedin.com/feed/update/urn:li:activity:7184559186045767680/)
 
 - Ask about the safety of a particular suburb, and the chatbot will provide insights on what to be cautious about.
 
