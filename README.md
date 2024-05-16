@@ -28,7 +28,7 @@ For the database, we utilize MySQL, although you have the flexibility to choose 
 
 We begin with a `jsonl` dataset, then create two Django models, [TextDataset and VectorDataset](https://github.com/Tilemachoc/streetappOpenAI/blob/main/web_proj/street/models.py). TextDataset chunks each line of the `jsonl` dataset and VectorDataset vectorizes it. TextDataset contains one column for text and another as a primary key (Django's default), while VectorDataset comprises two columns: original primary key and vector data, where the vector data represents the embeddings of TextDataset.
 
-After migrations and migration, using the command `python manage.py import_jsonl_data.py [data.jsonl](https://github.com/Tilemachoc/streetappOpenAI/blob/main/web_proj/data.jsonl)`, we can add rows to our TextDataset model.
+After migrations and migration, using the command `python manage.py import_jsonl_data.py data.json`, we can add rows to our TextDataset model.
 
 To create the transformed dataset (VectorDataset) from the original TextDataset, substantial work is required. We utilize a custom command called [db_to_vectordb](https://github.com/Tilemachoc/streetappOpenAI/blob/main/web_proj/street/management/commands/db_to_vectordb.py). This command counts the rows in VectorDataset and uses that number as a starting index to avoid vectorizing the same rows. We then employ [generate_embeddings_from_database](https://github.com/Tilemachoc/streetappOpenAI/blob/main/web_proj/street/utils/functions.py), utilizing the `intfloat/e5-large-v2` model to yield embeddings. Before creating a new VectorDataset object, we check if it already exists.
 
